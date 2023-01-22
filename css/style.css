@@ -1,0 +1,403 @@
+@import url('reset.css');
+@import url('fonts.css');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.625;
+    background: #E5E5E5;
+    color: black;
+}
+.content-container {
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+.btm {
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+    background: #FFFFFF;
+    padding: 10px 24px ;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+header {
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+.navigation {
+    padding: 17px 0;;
+}
+.navigation > ul > li {
+    display: inline-block;
+    vertical-align: top;
+}
+.navigation a {
+    text-decoration: none;
+    padding: 0 20px 0 20px;
+    display: block;
+    color: #333333;
+    position: relative;
+}
+.navigation a:hover {
+    color: #F13C6E;
+}
+.logo {
+    background-color: white;
+    padding: 10px;
+    margin: 0 auto;
+    border-bottom: 1px solid #EFEFEF;
+}
+.float-item {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.logo-section {
+    min-height: 120px;
+}
+.float-items > .float-item:last-child {
+    padding: 30px 0;
+    min-height: 120px;
+    width: 50%;
+}
+.img {
+    padding-top: 15px;
+    padding-right: 300px;
+}
+.tel > a:first-child {
+    margin-right: 40px;
+    min-height: 120px;
+    padding: 18px 0 18px 210px;
+    text-decoration: none;
+    color: black;
+}
+.tel > a:first-child:hover {
+    color: #F13C6E;
+}
+.tel > a:last-child:hover {
+    color: white;
+    background-color: #F13C6E;
+}
+.navigation-second {
+    background-color: white;
+}
+.navigation-second-section > ul > li {
+    display: inline-block;
+    vertical-align: top;
+}
+.navigation-second-section a {
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    color: black;
+    position: relative;
+}
+.navigation-second-section a:hover {
+    color: #F13C6E;
+}
+.visual-section {
+    background-image: url(../images/background.png);
+    max-height: 604px;
+}
+.visual-content {
+    padding: 192px 500px 193px 0;
+    text-align: left;
+    color: white;
+}
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.166;
+    margin-bottom: 50px;
+}
+.visual-content p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42;
+    margin-bottom: 50px;
+    padding-right: 300px;
+}
+.visual-content .btm {
+    border-color: white;
+    background: #F13C6E;
+    text-decoration: none;
+    color: white;
+    padding: 10px 38px;
+}
+.visual-content .btm:hover {
+    background-color: white;
+    color: #F13C6E;
+}
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.166;
+    padding: 38px 0;
+}
+.text-section {
+    padding-bottom: 50px;
+}
+.texts {
+    font-size: 0;
+    line-height: 0;
+    text-align: center;
+    margin: 0 -15px;
+}
+.texts * {
+    font-size: 16px;
+    line-height: 1.625; 
+}
+.text-item {
+    font-weight: 400;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    padding: 15px;
+}
+.text-box {
+    border: 2px solid #E0E0E0;
+    padding: 20px;
+    background: white;
+}
+.text-box .btm {
+    padding: 7px 38px;
+}
+.text-box .btm:hover {
+    color: white;
+    background: #F13C6E;
+}
+h5 {
+    color: black;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+    padding: 0 0 10px;
+}
+.bonus-section {
+    margin-bottom: 100px;
+}
+.bonus {
+    font-size: 0;
+    line-height: 0;
+    margin: 0 -15px 0 -15px;
+}
+.bonus * {
+    font-size: 16px;
+    line-height: 1.625; 
+}
+.bonus-item {
+    font-weight: 400;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    padding: 0 15px 0 15px;
+}
+.bonus-box {
+    background: #F13C6E;
+    color: white;
+    text-align: left;
+}
+.bonus-text {
+    width: 250px;
+    display: inline-block;
+    padding: 35px 0 35px 30px;
+    text-align: left;
+}
+.bonus-box h5{
+    color: white;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+    padding: 0 0 25px 0;
+}
+.bonus-box p{
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+}
+.img-mail {
+    display: inline-block;
+    vertical-align: top;
+    padding: 70px 0 0 85px;
+}
+.img-car {
+    display: inline-block;
+    vertical-align: top;
+    padding: 70px 0 45px 65px;
+}
+.bonus .shopmap .bonus-text {
+    padding: 35px 0 40px 30px;
+}
+.bonus .shopmap p {
+    padding-bottom: 40px;
+}
+.bonus .shopmap .bonus-text .second {
+    margin-top: 0;
+}
+.bonus-text .btm {
+    background-color: #F13C6E;
+    border-color: white;
+    padding: 7px 38px;
+    margin-top: 25px;
+}
+.bonus-text .first{
+    background-color: white;
+    color: #C4C4C4;
+}
+.bonus-text .second{
+    color: white;
+}
+.bonus-text .second:hover {
+    color: #F13C6E;
+    background: white;
+}
+.impuls-section {
+    padding-bottom: 50px;
+}
+.impuls {
+    font-size: 0;
+    line-height: 0;
+    text-align: center;
+}
+.impuls * {
+    font-size: 16px;
+    line-height: 1.625; 
+}
+.impuls-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+}
+.impuls-box {
+    padding: 20px;
+    background: white;
+}
+aside {
+    background-color: white;
+}
+.menu-section {
+    border-bottom: 2px solid #C4C4C4;
+}
+.menus {
+    font-size: 0;
+    line-height: 0;
+    text-align: left;
+    margin: 0 -15px;
+}
+.menus * {
+    font-size: 16px;
+    line-height: 1.625; 
+}
+.menu-item {
+    font-weight: 400;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    padding: 15px;
+}
+.menu-box {
+    background: white;
+}
+.menu-box h5 {
+    border-bottom: 2px solid #EFEFEF;
+    padding: 60px 0 30px 0;
+}
+.menu-list li {
+    margin-bottom: 1em
+}
+.menu-list a {
+    text-decoration: none;
+    color: black;
+}
+.menu-list a:hover{
+    color: #F13C6E;
+}
+.menu-list {
+    padding: 25px 0 60px 0;
+}
+.contact {
+    background-color: white;
+    padding: 10px;
+    margin: 0 auto;
+    border-bottom: 2px solid #EFEFEF;
+}
+.float-item {
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.contact-section {
+    min-height: 120px;
+}
+.networks-list {
+    padding: 30px 0 0 0;
+}
+.networks li{
+    display: inline-block;
+    vertical-align: top;
+}
+.networks a {
+    display: block;
+    border: 2px solid #F13C6E;
+    color: #F13C6E;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0 10px 0 0;
+}
+.networks a:hover {
+    color: white;
+    background: #F13C6E;
+
+}
+footer {
+    background-color: #EFEFEF;
+}
+.text {
+    color: #828282;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 25px 0;
+}
+.first-text {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+.second-text {
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    padding-left:320px;
+}
